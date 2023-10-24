@@ -1,0 +1,17 @@
+/* I have found the answer for the responsive images:
+https://stackoverflow.com/questions/12609110/responsive-css-background-images
+*/
+
+body {
+    background-color: #0f046b;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("../images/demon_king_vearn_1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
